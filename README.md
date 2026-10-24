@@ -14,6 +14,18 @@ NOTE: Packet Tracer and switch lab.dev doesn't differentiate between single-mode
 and multimode fiber, but think about which one is appropriate when you 
 use a fiber connection.
 
+<h2>Lab description and objectives</h2>
+
+UTP or ethernet cabling can be straight through or crossover cabling. Most modern devices have evolved and use Auto MDI-X to auto detect whether data is being transmitted or received. For this lab, we will assume that Auto MDI-X is disabled so straight through vs crossover cabling is important here. 
+
+Routers, firewalls, and PCs transmit data on pins 1 and 2 and they receive data on pins 3 and 6. Switches, on the other hand transmit data on pins 3 and 6 and receive data on pins 1 and 2. Who connecting devices that transmit and receive data on the same pins a crossover cable is needed. 
+
+UTP has a distance limit of ~100m.
+
+Multi-mode fiber has a distance limit of ~550m.
+
+Single-mode fiber has a distance limit of ~30km and is the most expensive. 
+
 <h2>Lab start in Packet Tracer</h2>
 
 <img width="734" height="450" alt="Screenshot 2026-10-24 at 12 04 20 PM" src="https://github.com/user-attachments/assets/cb04ac56-99d4-44b9-92f3-0de4baa1de3a" />
