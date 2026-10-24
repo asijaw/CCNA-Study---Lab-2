@@ -27,21 +27,36 @@ use a fiber connection.
 R1-R3 (3 km distance) : Single-mode fiber
 
 R1-R2 (50 m distance) : UTP Crossover
+
 R2-SW1 : UTP Straight through
+
 R2-SW2 : UTP Straight through
+
 SW1-SW2 : UTP Crossover
+
 SW1-SW3 : UTP Crossover
+
 SW2-SW4 : UTP Crossover
+
 SW3-PC1 : UTP Straight through
+
 SW4-PC2 : UTP Straight through
 
+
 R3-R4 (250 m distance) : Multi-mode fiber
+
 R4-SW5 : UTP Straight through
+
 R4-SW6 : UTP Straight through
+
 SW5-SW6 : UTP Crossover
+
 SW5-SW7 : UTP Crossover
+
 SW6-SW8 : UTP Crossover
+
 SW7-PC3 : UTP Straight through
+
 SW8-SRV1 : UTP Straight through
 
 
